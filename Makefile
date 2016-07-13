@@ -5,7 +5,7 @@ OVERLAY_NAME = presets
 OVERLAY_FILE = overlay-$(OVERLAY_NAME)-$(VERSION).sqfs
 INPUT := overlay
 LIBRARIAN_REPO = https://github.com/Outernet-Project/librarian.git
-LIBRARIAN_BRANCH = feature/separate-presets
+LIBRARIAN_BRANCH = develop
 
 all: $(OVERLAY_FILE)
 
