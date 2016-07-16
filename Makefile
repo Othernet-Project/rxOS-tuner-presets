@@ -1,6 +1,6 @@
 .PHONY: all clean update
 
-VERSION = 1.0
+VERSION = 1.1
 OVERLAY_NAME = presets
 OVERLAY_FILE = overlay-$(OVERLAY_NAME)-$(VERSION).sqfs
 INPUT := overlay
